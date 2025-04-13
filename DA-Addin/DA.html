@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg936\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html>\
+<body>\
+  <button onclick="fillDA()">
+\f1 \'b5\'e3\'bb\'f7\'cc\'ee
+\f0 DA</button>\
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>\
+  <script>\
+    function fillDA() \{\
+      Excel.run(async (context) => \{\
+        const sheet = context.workbook.worksheets.getActiveWorksheet();\
+        const range = sheet.getRange("A1:A10"); // 
+\f1 \'d1\'a1\'d6\'d0
+\f0 A1
+\f1 \'b5\'bd
+\f0 A10\
+        range.values = [["DA"], ["DA"], ["DA"], ["DA"], ["DA"], ["DA"], ["DA"], ["DA"], ["DA"], ["DA"]]; // 
+\f1 \'cc\'ee\'b3\'e4
+\f0 DA\
+        await context.sync();\
+      \}).catch((error) => console.log(error));\
+    \}\
+  </script>\
+</body>\
+</html>}
