@@ -28,7 +28,7 @@
     <Host Name="Workbook"/>\
   </Hosts>\
   <DefaultSettings>\
-    <SourceLocation DefaultValue="https://localhost:3000/DA.html"/>\
+    <SourceLocation DefaultValue="https://你的用户名.github.io/excel-addin-demo/DA.html"/>\
   </DefaultSettings>\
   <Permissions>ReadWriteDocument</Permissions>\
 </OfficeApp>}
